@@ -1,0 +1,24 @@
+PODS:
+  - Nimble (3.0.0)
+  - Quick (0.8.0)
+  - RxBlocking (2.0.0-beta.2):
+    - RxSwift (~> 2.0.0-beta)
+  - RxCocoa (2.0.0-beta.2):
+    - RxSwift (~> 2.0.0-beta)
+  - RxSwift (2.0.0-beta.2)
+
+DEPENDENCIES:
+  - Nimble (= 3.0.0)
+  - Quick (= 0.8.0)
+  - RxBlocking (= 2.0.0-beta.2)
+  - RxCocoa (= 2.0.0-beta.2)
+  - RxSwift (= 2.0.0-beta.2)
+
+SPEC CHECKSUMS:
+  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
+  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
+  RxBlocking: ffb518856fb7712dcef7e18406ccb8c2854b3104
+  RxCocoa: ee39aa3ab24a8dde3832669f8e1e2c7652925e0c
+  RxSwift: 795720c22352cf1f62669ef3695b5df7e195103b
+
+COCOAPODS: 0.39.0
