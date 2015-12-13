@@ -12,7 +12,7 @@ class RxHttpClientTest: QuickSpec {
             it("get") {
                 let client = DefaultRxHttpClient(defaultTimeoutSec: 5)
                 do {
-                    let array = try client.get(NSURL(string: "http://gochiusa.com")!, parameters: nil, headers: nil).toBlocking().first()
+                    let array = try client.get(NSURL(string: "http://gochiusa.com")!).toBlocking().first()
                     if let string = NSString(data: array!.0, encoding: NSUTF8StringEncoding)
                     where string.containsString("ご注文はうさぎですか") {
                         // success
